@@ -1,0 +1,162 @@
+.col2row1 {
+    border-radius: 3rem;
+    background-color: rgba(30, 30, 30, 1);
+    border: 1px solid #676767;
+
+    padding: 10px;
+
+}
+
+.maincontainer {
+    padding-left: 5rem;
+}
+
+.row1col1 {
+    border-radius: 1rem;
+    background-color: rgba(30, 30, 30, 1);
+
+    border: 1px solid #676767;
+
+}
+
+.col2row1col1container1 {
+    width: 200px;
+    display: flex;
+    border-radius: 1rem;
+    background-color: rgba(30, 30, 30, 1);
+    border: 1px solid #676767;
+
+}
+
+
+
+
+.col2row1col1container1rowcol {
+    margin: 10px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgba(30, 30, 30, 1);
+    border: 1px solid #676767;
+
+    &:hover {
+        background-color: white;
+        color: black;
+
+    }
+}
+
+.col2row1col1container1rowcol i {
+    position: relative;
+    font-size: 30px;
+    top: 7px;
+
+
+}
+
+.row1col1col1 {
+    border-radius: 1rem 0 1rem 0;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+}
+
+.row1col1col1 img {
+    border-radius: 1rem 0 1rem 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+.col1col1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col1col1 h4 {
+    font-weight: bold;
+}
+
+.col1col1 p {
+    font-weight: 200;
+    text-align: justify;
+    justify-content: center;
+    columns: 2;
+
+}
+
+.col2row1col1 {
+    border-radius: 1rem;
+    background-color: rgba(30, 30, 30, 1);
+    border: 1px solid #676767;
+
+}
+
+.col2row1col1row2 p {
+    font-weight: 200;
+    gap: 1px;
+    text-align: justify;
+    justify-content: center;
+}
+
+.col1col1 i {
+    position: relative;
+    left: 170px;
+    top: 35px;
+    color: #676767;
+    font-size: 30px;
+}
+
+.col2row1col1row2 span {
+    font-weight: bold;
+
+}
+
+.col2row1col1row2 i {
+    transform: rotateY('80deg');
+    color: #676767;
+
+    position: relative;
+    font-size: 30px;
+    top: 5px;
+    left: 30px;
+}
+
+.x i {
+    position: relative;
+    left: 130px;
+    font-size: 30px;
+    color: #676767;
+
+}
+
+.col2row1col2 i {
+    position: relative;
+    top: -7px;
+    color: #676767;
+
+}
+
+
+.col2row1col2 img {
+
+    width: 150px;
+    height: 150px;
+}
+
+.col2row1col1 .img {
+    width: 100px;
+    height: 100px;
+}
+
+.middlerowcol1col ul {
+    display: flex;
+    list-style-type: none;
+    gap: 7rem;
+}
+
+.middlerowcol1 {
+    border-radius: 1rem;
+    background-color: rgba(30, 30, 30, 1);
+    border: 1px solid #676767;
+}

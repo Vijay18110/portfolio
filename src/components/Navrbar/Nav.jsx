@@ -5,14 +5,12 @@ import Button from '../../widgets/button/Button'
 const Nav = () => {
     return (
 
-        <div className="container mt-0 pt-0">
-
-            <div className="row  ">
+        <div className="container  pt-0">
+            <div className="row  pt-3">
                 <div className=" text-start col-sm-2">
-                    <img style={{ width: "100px", position: "relative", top: "-20px" }} nav src={"/vijay.png"} alt="" />
+                    <img style={{ width: "100px", position: "relative", top: "-10px" }} nav src={"/vijay.png"} alt="" />
                 </div>
                 <div className="  col-sm-8 ">
-
                     <ul className='d-flex   justify-content-center gap-5  ' style={{ listStyleType: "none" }}>
                         <li style={{ color: "#676767" }}> <a to="#">Home</a> </li>
                         <li style={{ color: "#676767" }}> About </li>
