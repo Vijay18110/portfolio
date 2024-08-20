@@ -3,12 +3,14 @@ import './middle.css'
 import sign from '../../assets/sign.png'
 import logo from '../../assets/Anime.png'
 import curri from '../../assets/curriculum-viteimg.png'
+import icon2 from '../../assets/icon2.png'
 import { FaCamera } from "react-icons/fa";
 import { IoPricetagsOutline } from "react-icons/io5";
 import { GiProgression } from "react-icons/gi";
 import { PiLinktreeLogoBold } from "react-icons/pi";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import Footer from '../Footer'
 const Middle = () => {
     return (
         <div className='container mt-5 maincontainer text-white'>
@@ -113,18 +115,18 @@ const Middle = () => {
                         </div>
                         <div className="col-md me-4 ps-2 middlerowcol1">
                             <div className="container">
-                                <div className='row mt-5'>
-                                    <div className="col middlerowcol1col">
-                                        <ul className='fs-5 ms-5'>
-                                            <li><FaCamera></FaCamera></li>
-                                            <li><IoPricetagsOutline></IoPricetagsOutline></li>
-                                            <li><GiProgression></GiProgression></li>
-                                            <li><GiProgression></GiProgression></li>
+                                <div className='row mt-5 mb-3'>
+                                    <div className="col n middlerowcol1col">
+                                        <ul className=' ms-5'>
+                                            <li style={{ fontSize: "30px" }}><FaCamera></FaCamera></li>
+                                            <li style={{ fontSize: "30px" }}><IoPricetagsOutline></IoPricetagsOutline></li>
+                                            <li style={{ fontSize: "30px" }}><GiProgression></GiProgression></li>
+                                            <li style={{ fontSize: "30px" }}><GiProgression></GiProgression></li>
 
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="row mt-5">
+                                <div className="row mt-5 mb-3">
                                     <div className="col">
                                         <div className="container">
                                             <div className="row">
@@ -150,7 +152,7 @@ const Middle = () => {
                         <div className="col-md col2row1col1">
                             <div className="container mt-3">
                                 <div className="row">
-                                    <div className="col">
+                                    <div className="col ms-3">
                                         <div className='col2row1col1container1'>
                                             <div style={{ width: "70px", height: "70px" }} className="col2row1col1container1rowcol"><i> <FaSquareInstagram></FaSquareInstagram></i></div>
                                             <div style={{ width: "70px", height: "70px" }} className=" col2row1col1container1rowcol"> <i><FaLinkedin></FaLinkedin></i></div>
@@ -175,6 +177,39 @@ const Middle = () => {
                     </div>
                 </div>
             </div>
+            <div className="row mt-5 row2">
+                <div className="col-md me-4 col1">
+                    <div className="row col1row">
+                        <div className="col-md  m-4 p-3 col1rowcol1">
+                            <h1>0</h1>
+                            <p className='text-secondary'>years experience</p>
+                        </div>
+                        <div className="col-md p-3  m-4 col1rowcol1">
+                            <h1>+20</h1>
+                            <p className=' text-secondary'>clients worldwide</p>
+                        </div>
+                        <div className="col-md p-3 m-4 col1rowcol1">
+                            <h1>+10</h1>
+                            <p className='text-secondary'>total projects</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md col1 col2">
+                    <div className="row">
+                        <img className='' src={icon2} alt="pic" />
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col">
+                            <div className='h1'>   Let's</div>
+                            <div className='h1'><span>work</span> <span className='text-primary'>together .</span></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <Footer></Footer>
         </div >
     )
 }
