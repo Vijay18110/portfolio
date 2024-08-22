@@ -1,0 +1,13 @@
+.contactcol2 {
+    background-color: rgba(30, 30, 30, 1);
+    border-radius: 1rem;
+}
+
+.input1 {
+    width: 100%;
+    color: white;
+}
+
+.input1::placeholder {
+    color: white;
+}

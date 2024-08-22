@@ -4,7 +4,13 @@ import './index.css'
 import star from '../../assets/star-2.png'
 import icon from '../../assets/icon2.png'
 import Card from './Card'
+import icon2 from '../../assets/icon2.png'
+import sign from '../../assets/sign.png'
+
 import Footer from '../../components/Footer'
+import { PiLinktreeLogoBold } from "react-icons/pi";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 
 
 
@@ -86,11 +92,83 @@ const About = () => {
                         </p>
                     </div>
                 </div>
+
+
+                <div className='row  mt-5'>
+                    <div className="col">
+                        <div className="col-md col2row1col1">
+                            <div className="container mt-3">
+                                <div className="row">
+                                    <div className="col ms-3">
+                                        <div className='d-flex text-white ms-2'>
+                                            <div style={{ width: "70px", height: "70px" }} className="col2row1col1container1rowcol"><i> <FaSquareInstagram></FaSquareInstagram></i></div>
+                                            <div style={{ width: "70px", height: "70px" }} className=" col2row1col1container1rowcol"> <i><FaLinkedin></FaLinkedin></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="container mt-3 mb-4 ">
+                                <div className='row  col2row1col1row2'>
+                                    <div className="col p-1 ps-2">
+
+                                        <div className='text-secondary fs-5 '> Connect WITH ME</div>
+                                        <div className='text-white'> Profiles</div>
+                                    </div>
+                                    <div className="col  pt-3 text-center">
+                                        <i><PiLinktreeLogoBold></PiLinktreeLogoBold></i>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-6">
+                        <div className="col-md col1 ps-3 col2">
+                            <div className="row">
+                                <img className='' src={icon2} alt="pic" />
+                            </div>
+                            <div className="row mb-4">
+                                <div className="col">
+                                    <div className='h1 text-white'>   Let's</div>
+                                    <div className='h1'><span className='text-white'>work</span> <span className='text-primary'>together .</span></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="col">
+
+                        <div className="col-md me-4  col2row1col1">
+                            <div className="row">
+                                <div className="col">
+                                    <img src={sign} alt="" />
+                                </div>
+                                <div className="container">
+                                    <div className='row mb-5  col2row1col1row2'>
+                                        <div className="col ms-2">
+
+                                            <div className='text-secondary '> SHOWCASE</div>
+                                            <div className='text-white'> Projects</div>
+                                        </div>
+                                        <div className="col  pt-3 text-center">
+                                            <i><PiLinktreeLogoBold></PiLinktreeLogoBold></i>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="row">
                     <div className="col">
+
                         <Footer></Footer>
                     </div>
                 </div>
+
+
             </div>
         </>
 

@@ -13,6 +13,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path='/home' element={<App></App>}> </Route>
+
         <Route path='/about' element={<About ></About>}> </Route>
         <Route path='/contact' element={<Contact></Contact>}> </Route>
         <Route path='/work' element={<Work></Work>}> </Route>
