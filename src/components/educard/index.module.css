@@ -1,0 +1,39 @@
+.cardcont {
+    width: 90%;
+    background-color: rgba(30, 30, 30, 1);
+    /* box-shadow: 0 0 10px white; */
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    transition: .5s;
+
+
+    &&:hover {
+        transform: scale(1.1);
+    }
+}
+
+.cardcont .year {
+    color: white;
+    font-weight: 800;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.cardcont .course {
+    color: white;
+    font-size: large;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.cardcont .uname {
+    color: white;
+    font-size: large;
+    display: block;
+
+    font-weight: 700;
+}

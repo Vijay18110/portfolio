@@ -1,0 +1,29 @@
+.educationcont {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.educationcont h1 {
+    color: white;
+    font-weight: 900;
+}
+
+.cardcont {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footercont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardcont h1 {
+    color: white;
+    font-weight: 900;
+
+}

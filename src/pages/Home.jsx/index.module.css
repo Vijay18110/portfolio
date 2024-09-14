@@ -1,0 +1,143 @@
+.cont {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+
+img {
+    width: 100%;
+    display: flex;
+    border-radius: 2rem 0em 2rem 0rem;
+}
+
+.right {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.marquee {
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px #fff;
+
+    align-items: center;
+    border-radius: 2rem;
+    color: white;
+    background-color: rgba(30, 30, 30, 1);
+
+}
+
+.about {
+    width: 90%;
+    padding: 4.8rem 3rem;
+    background-color: rgba(30, 30, 30, 1);
+    box-shadow: 0 0 10px #fff;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.footercont {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h1,
+h3 {
+    color: white;
+    font-weight: 900;
+}
+
+.about h3 {
+    color: white;
+    font-weight: 500;
+}
+
+.about h6 {
+    color: #f1e9e9;
+    font-weight: 300;
+}
+
+.heading {
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    color: white;
+
+}
+
+.iconlinkscont {
+    width: 85%;
+    margin: 20px;
+    display: flex;
+    color: white;
+    margin: 0 auto;
+
+}
+
+.iconlinks {
+
+    width: 70px;
+    height: 70px;
+    background-color: rgba(30, 30, 30, 1);
+    box-shadow: 0 0 10px white;
+    border-radius: 50%;
+    margin: 20px 20px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: white;
+    animation: ro infinite linear 1s;
+    border: 1px solid white;
+    border-style: dashed;
+}
+
+@keyframes ro {
+    from {
+        transform: rotate(0deg);
+        border: 1px solid white;
+
+    }
+
+    to {
+        transform: rotate(360deg);
+        border: 1px solid white;
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:980px) {
+    .cont {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:980px) and (min-width:300px) {
+    .cont {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .imgcont img {
+        width: 80%;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+
+}

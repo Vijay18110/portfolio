@@ -1,0 +1,19 @@
+.btn1 {
+    width: 150px;
+    height: 48px;
+    color: white;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    background-color: #676767;
+    box-shadow: 0 0 10px #fff;
+    font-size: larger;
+    transition: .5;
+
+    &:hover {
+        background-color: white;
+        color: #676767;
+    }
+}

@@ -1,175 +1,55 @@
 import React from 'react'
-import Nav from '../../components/Navrbar/Nav'
+import Nav from '../../components/Navrbar'
 import './index.css'
 import star from '../../assets/star-2.png'
 import icon from '../../assets/icon2.png'
-import Card from './Card'
+import Card from '../../components/Card'
 import icon2 from '../../assets/icon2.png'
 import sign from '../../assets/sign.png'
-
 import Footer from '../../components/Footer'
 import { PiLinktreeLogoBold } from "react-icons/pi";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-
-
-
+import { FaStarOfDavid } from "react-icons/fa6";
+import Button from '../../widgets/button'
 const About = () => {
     return (
         <>
             <Nav></Nav>
-            <div className="container mt-5">
-                <div className="row" >
-                    <div className=" col-md-4 me-2">
-                        <div className='aboutrow1col1 p-1'>
-                            <div className="col-md w-75 h-100 mx-auto row1col1col1 align-item-center m-3">
-                                <img src={"/vijaypic.jpg"} alt="pic" />
+            <div className="container">
+                <div className="container1">
+                    <img src={"/vijaypic.jpg"} alt="pic" />
+                    <div className="aboutrow1col2">
+                        <div className='letftop' >
+                            <i><FaStarOfDavid></FaStarOfDavid></i>
+                            <h2 className='text-white'>SELF-SUMMARY</h2>
+                            <i><FaStarOfDavid></FaStarOfDavid></i>
+                        </div>
+                        <div className="nnnnnn">
+                            <div className="">
+                                <img style={{ width: "100px", height: "70px" }} src={icon} alt="" />
                             </div>
-                        </div>
+                            <div className="">
+                                <div className="h1 text-white">@Vijay raj</div>
+                                <p className="text-white">
+                                    I'm Vijay Raj.React.Js And node.js Developer With  Skills And Excellent Working Knowledge Of Frontend and backend Technologies And Having A Commitment To Keep Up To Date With The Latest Technologies. Seeking A Challenging Job In The Field Of Frontend and backend Developer (node.js And React Native) Where I Can Use My Skills For The Growth Of An Organisation And Ready To Help Teammates To Achieve Company Goals.
 
-                    </div>
-                    <div className="col-md  aboutrow1col2">
-                        <div className="row">
-                            <div className="col">
-                                <div className='d-flex ms-5 gap-2' >
-                                    <img src={star} alt="" />
-                                    <h1 className='text-white'>SELF-SUMMARY</h1>
-                                    <img src={star} alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row mx-auto nnnnnn mt-3" >
-
-                            <div className="row  col2row2">
-                                <div className="row ps-5">
-                                    <img style={{ width: "100px", height: "70px" }} src={icon} alt="" />
-                                </div>
-                                <div className="row ps-5 mt-5">
-                                    <div className="h1 text-white">@Vijay raj</div>
-                                    <p className="text-secondary">
-                                        I am a INDIA-based UI UX designer with a focus on web design, illustration, a visual development. I have a diverse range of experience having worked across various fields and industries.
-
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div className="row mt-4">
-                    <div className="col-md">
-                        <Card></Card>
-                    </div>
-                    <div className="col-md"><Card></Card></div>
-                </div>
-                <div className="row mt-3 ">
-                    <div className="col aboutrow3col ps-4 pt-4 pb-4">
-                        <div className="h6 text-white">
-                            Certification
-                        </div>
-                        <div className=" text-primary fs-5">
-                            Level Up Your CSS Animation Skills
-
-                        </div>
-                        <p className='text-secondary pb-2'>
-                            Level Up Your CSS Animation Skills
-                        </p>
-                        <div className='text-primary fs-5'>
-                            Complete Web & Mobile Designer in 2023: UI/UX, Figma
-                        </div>
-                        <p className='text-secondary pb-2'>
-                            Instructed By: Andrei Neagoie, Daniel Schifano
-                        </p>
-                        <div className='text-primary fs-5'>
-                            Diploma Course in Human Resource Management (HRM)
-
-                        </div>
-                        <p className='text-secondary'>
-                            Instructed By: Akaaro Consulting and Training
-
-                        </p>
-                    </div>
-                </div>
-
-
-                <div className='row  mt-5'>
-                    <div className="col">
-                        <div className="col-md col2row1col1">
-                            <div className="container mt-3">
-                                <div className="row">
-                                    <div className="col ms-3">
-                                        <div className='d-flex text-white ms-2'>
-                                            <div style={{ width: "70px", height: "70px" }} className="col2row1col1container1rowcol"><i> <FaSquareInstagram></FaSquareInstagram></i></div>
-                                            <div style={{ width: "70px", height: "70px" }} className=" col2row1col1container1rowcol"> <i><FaLinkedin></FaLinkedin></i></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="container mt-3 mb-4 ">
-                                <div className='row  col2row1col1row2'>
-                                    <div className="col p-1 ps-2">
-
-                                        <div className='text-secondary fs-5 '> Connect WITH ME</div>
-                                        <div className='text-white'> Profiles</div>
-                                    </div>
-                                    <div className="col  pt-3 text-center">
-                                        <i><PiLinktreeLogoBold></PiLinktreeLogoBold></i>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6">
-                        <div className="col-md col1 ps-3 col2">
-                            <div className="row">
-                                <img className='' src={icon2} alt="pic" />
-                            </div>
-                            <div className="row mb-4">
-                                <div className="col">
-                                    <div className='h1 text-white'>   Let's</div>
-                                    <div className='h1'><span className='text-white'>work</span> <span className='text-primary'>together .</span></div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div className="col">
-
-                        <div className="col-md me-4  col2row1col1">
-                            <div className="row">
-                                <div className="col">
-                                    <img src={sign} alt="" />
-                                </div>
-                                <div className="container">
-                                    <div className='row mb-5  col2row1col1row2'>
-                                        <div className="col ms-2">
-
-                                            <div className='text-secondary '> SHOWCASE</div>
-                                            <div className='text-white'> Projects</div>
-                                        </div>
-                                        <div className="col  pt-3 text-center">
-                                            <i><PiLinktreeLogoBold></PiLinktreeLogoBold></i>
-
-                                        </div>
-                                    </div>
-
-                                </div>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col">
-
-                        <Footer></Footer>
-                    </div>
+                <div className='project'>
+                    <Button value="20+"></Button>
+                    <h1>projects</h1>
                 </div>
-
-
+                <div className={"footercont"}>
+                    <Footer></Footer>
+                </div>
             </div>
+
+
+
         </>
 
     )

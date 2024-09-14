@@ -1,0 +1,96 @@
+.contactcol2 {
+    background-color: rgba(30, 30, 30, 1);
+    border-radius: 1rem;
+}
+
+.col2row1col1container1rowcol {
+    width: 70px;
+    background-color: rgba(30, 30, 30, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    height: 70px;
+    animation: ro infinite linear 1s;
+    border: 1px solid white;
+    border-style: dashed;
+    color: black;
+
+    &:hover {
+        background-color: white;
+    }
+}
+
+@keyframes ro {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+        background-color: white;
+
+    }
+}
+
+.footercont {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input1 {
+    width: 80%;
+    margin: 0 50px;
+    padding: 15px;
+    color: white;
+}
+
+.input1::placeholder {
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.formcontainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 70px;
+}
+
+@media screen and (max-width:800px) {
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formcontainer {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0px;
+
+    }
+
+    .left {
+        width: 100%;
+        margin-left: 50px;
+    }
+}

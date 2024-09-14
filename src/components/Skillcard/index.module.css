@@ -1,0 +1,37 @@
+.Skillcardcont {
+    margin: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    color: black;
+    align-items: center;
+    transition: 1s;
+
+    &:hover {
+        transform: rotate(10deg);
+    }
+}
+
+.imgcont {
+    box-shadow: 0 0 10px white;
+}
+
+.name {
+    color: black;
+    font-size: xx-large;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:560px) {
+    .Skillcardcont {
+        width: 400px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+}
