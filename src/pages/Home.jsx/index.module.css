@@ -7,11 +7,17 @@
     margin-top: 30px;
 }
 
+.imgcont {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
 
 
 img {
     width: 100%;
-    display: flex;
+    display: fle;
     border-radius: 2rem 0em 2rem 0rem;
 }
 

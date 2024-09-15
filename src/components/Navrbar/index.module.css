@@ -20,8 +20,9 @@ a {
 
 }
 
-.active {
-    color: red;
+.a {
+    color: goldenrod;
+    border-bottom: 1.5px solid white;
 }
 
 

@@ -32,7 +32,7 @@ const About = () => {
                             <div className="">
                                 <div className="h1 text-white">@Vijay raj</div>
                                 <p className="text-white">
-                                    I'm Vijay Raj.React.Js And node.js Developer With  Skills And Excellent Working Knowledge Of Frontend and backend Technologies And Having A Commitment To Keep Up To Date With The Latest Technologies. Seeking A Challenging Job In The Field Of Frontend and backend Developer (node.js And React Native) Where I Can Use My Skills For The Growth Of An Organisation And Ready To Help Teammates To Achieve Company Goals.
+                                    I'm Vijay Raj.React.Js And node.js Developer With  Skills And Excellent Working Knowledge Of Frontend and backend Technologies And Having A Commitment To Keep Up To Date With The Latest Technologies. Seeking A Challenging Job In The Field Of Frontend and backend Developer (node.js And React.js) Where I Can Use My Skills For The Growth Of An Organisation And Ready To Help Teammates To Achieve Company Goals.
 
                                 </p>
                             </div>

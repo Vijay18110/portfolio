@@ -1,7 +1,7 @@
 import './index.css';
 import About from './pages/About'
 import Contact from './pages/Contact'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import Project from './pages/Project';
 import Skills from './pages/Skills';
 
@@ -12,6 +12,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          <Route path='/' element={<Navigate to="/home" />}> </Route>
           <Route path='/home' element={<Home ></Home>}> </Route>
           <Route path='/about' element={<About></About>}> </Route>
           <Route path='/contact' element={<Contact></Contact>}> </Route>

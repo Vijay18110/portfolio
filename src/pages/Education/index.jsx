@@ -16,7 +16,7 @@ const Education = () => {
                 <Educard year="2017-2019" course="Matriculation" uname="ok kamal bublic school lalpur bazar (sitapur)"></Educard>
                 <h1>Experience</h1>
                 <Educard year="3 months" course="Traning (Mern Stack)" uname="Zn infotech (lucknow)"></Educard>
-                <Educard year="3 months" course="internship (Mern Stack)" uname="Skyview Smart Solution, Lucknow, UP July 2024 - march 2024"></Educard>
+                <Educard year="9 months" course="internship (Mern Stack)" uname="Skyview Smart Solution, Lucknow, UP July 2024 - march 2024"></Educard>
             </div >
             <div className={styles.footercont}>
                 <Footer></Footer>
