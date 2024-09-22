@@ -54,7 +54,7 @@
 .letftop i,
 h2 {
     font-size: xx-large;
-    margin: 30px;
+    margin: 10px;
     display: flex;
     justify-content: center;
 }
@@ -151,6 +151,23 @@ h2 {
     .letftop i {
         width: 10%;
         height: 10%;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .letftop {
+        width: 300px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        padding: 0 1rem;
+
+    }
+
+    .nnnnnn {
+        width: 300px;
     }
 
 }
