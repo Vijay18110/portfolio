@@ -1,12 +1,12 @@
 .aboutrow1col1 {
     background-color: rgba(30, 30, 30, 1);
     border-radius: 1rem;
-    min-width: 350px;
+    /* min-width: 350px; */
 
 }
 
 .nnnnnn {
-    min-width: 400px;
+    /* min-width: 400px; */
 
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
 .letftop {
     display: flex;
     width: 100%;
-    min-width: 400px;
+    /* min-width: 400px; */
 
     margin-top: 10px;
     justify-content: center;
@@ -38,7 +38,7 @@
     flex-direction: column;
     gap: 10px;
     width: 85%;
-    min-width: 400px;
+    /* min-width: 400px; */
 
     margin: 0 auto;
     padding: 2rem 3rem;
@@ -62,7 +62,7 @@ h2 {
 .letftop i {
     width: 70px;
     height: 70px;
-    min-width: 400px;
+    /* min-width: 400px; */
     background-color: rgba(30, 30, 30, 1);
     animation: round infinite linear 1s;
     border-radius: 50%;
@@ -126,6 +126,26 @@ h2 {
 @media screen and (max-width:800px) {
     .container1 {
         flex-direction: column;
+        width: 400px;
+        background-color: black;
+    }
+
+    .nnnnnn {
+        width: 400px;
+        background-color: black;
+
+    }
+
+    .footercont {
+        width: 400px;
+        background-color: black;
+
+    }
+
+    .aboutrow1col1 {
+
+        background-color: black;
+        width: 400px;
     }
 
     .letftop i {

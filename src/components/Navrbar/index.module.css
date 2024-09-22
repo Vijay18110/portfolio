@@ -52,6 +52,11 @@ a {
 }
 
 @media screen and (max-width:500px) {
+    .navcont {
+        width: 400px;
+        background-color: black;
+    }
+
     .navcont ul {
         display: none;
     }

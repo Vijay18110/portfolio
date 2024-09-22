@@ -1,9 +1,8 @@
-import React from 'react'
-import Nav from '../../components/Navrbar'
-import styles from './index.module.css'
-import Footer from '../../components/Footer'
-import ProjCarc from '../../components/projectcard'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import Nav from '../../components/Navrbar';
+import styles from './index.module.css';
+import Footer from '../../components/Footer';
+import ProjCarc from '../../components/projectcard';
 const Project = () => {
     return (
         <>
@@ -14,7 +13,6 @@ const Project = () => {
             <div className={styles.Projectcont}>
                 <ProjCarc link="https://student-grievance.netlify.app/" name="Student greivance system with" img="Screenshot1.png" tech="react.js & node.js"></ProjCarc>
                 <ProjCarc link="https://vijayatm.netlify.app/" name="ATM app functionality with localstorage" img="Screenshotatm.png" tech="react.js & node.js"></ProjCarc>
-                {/* <a target='_target' href="https://vijayatm.netlify.app/"></a> */}
                 <ProjCarc name="Note app clone" img="noteapp clone.png" tech="react.js"></ProjCarc>
                 <ProjCarc name="text-editor app with all functionality" img="Screenshot3.png" tech="react.js"></ProjCarc>
                 <ProjCarc link='https://main--unbrew.netlify.app/' name="unbrew " img="Screenshot4.png" tech="react.js"></ProjCarc>
@@ -37,8 +35,6 @@ const Project = () => {
                 <Footer></Footer>
             </div>
         </>
-
     )
 }
-
 export default Project
