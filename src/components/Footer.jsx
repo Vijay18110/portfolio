@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
-        <div className='row row3  mt-5'>
+        <div style={{ minWidth: "400px" }} className='row row3  mt-5'>
             <div className="col row3col">
                 <div className="h3 text-white me-4 mt-3">VIJAY RAJ</div>
                 <div className='text-secondary d-flex  mt-3'>
