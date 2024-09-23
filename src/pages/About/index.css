@@ -171,3 +171,14 @@ h2 {
     }
 
 }
+
+@media screen and (max-width:1000px) {
+
+    .footercont {
+        width: 100%;
+        text-align: start;
+        margin: auto;
+    }
+
+
+}
