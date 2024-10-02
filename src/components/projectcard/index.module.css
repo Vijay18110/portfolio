@@ -3,7 +3,7 @@
     width: 48%;
 
     padding: 1rem 2rem;
-    background-color: rgba(30, 30, 30, 1);
+    background-color: #464033;
     box-shadow: 0 0 7px white;
     margin-top: 20px;
     flex-direction: column;
@@ -22,7 +22,7 @@
 .aboutprojectonhover {
     width: 37%;
     /* background-color: red; */
-    background-color: rgba(30, 30, 30, 1);
+    background-color: #464022;
     display: none;
     height: 0px;
     display: flex;

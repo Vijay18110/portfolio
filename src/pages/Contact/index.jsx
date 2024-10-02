@@ -108,7 +108,7 @@ const Contact = () => {
                         <div className="h6 text-white mb-4">CONTACT INFO</div>
                         <div className='d-flex'>
                             <i className='me-3 mt-2'>
-                                <div className={styles.col2row1col1container1rowcol}><i className='text-black'><FaEnvelope></FaEnvelope></i></div>
+                                <div className={styles.col2row1col1container1rowcol}><i className='text-white'><FaEnvelope></FaEnvelope></i></div>
                             </i>
                             <div>
                                 <div className='text-secondary'>MAIL US </div>
@@ -120,7 +120,7 @@ const Contact = () => {
 
                         <div className='d-flex mt-5'>
                             <i className='me-3 mt-2'>
-                                <div className={styles.col2row1col1container1rowcol}><i className='text-black'>  <FaWhatsappSquare></FaWhatsappSquare></i></div>
+                                <div className={styles.col2row1col1container1rowcol}><i className='text-white'>  <FaWhatsappSquare></FaWhatsappSquare></i></div>
                             </i>
                             <div>
                                 <div className='text-secondary'>CONTACT US </div>
@@ -132,7 +132,7 @@ const Contact = () => {
 
                         <div className='d-flex mt-5'>
                             <i className='me-3 mt-2'>
-                                <div className={styles.col2row1col1container1rowcol}><i className='text-black'>  <IoLocationSharp></IoLocationSharp></i></div>
+                                <div className={styles.col2row1col1container1rowcol}><i className='text-white'>  <IoLocationSharp></IoLocationSharp></i></div>
                             </i>
                             <div>
                                 <div className='text-secondary'>
@@ -172,19 +172,19 @@ const Contact = () => {
 
                     <form action="" ref={form} className='form mt-4' onSubmit={(e) => sendEmail(e)}>
                         <div>
-                            <input ref={formname} placeholder='Name' style={{ backgroundColor: "rgba(20,20,20,1)", outline: "none", border: "none" }} type="text" className={styles.input1} />
+                            <input ref={formname} placeholder='Name' style={{ backgroundColor: "#464022", outline: "none", border: "none" }} type="text" className={styles.input1} />
                         </div>
                         <div className='mt-3'>
-                            <input ref={formemail} type="text" style={{ backgroundColor: "rgba(20,20,20,1)", outline: "none", border: "none" }} placeholder='email *' className={styles.input1} />
+                            <input ref={formemail} type="text" style={{ backgroundColor: "#464022", outline: "none", border: "none" }} placeholder='email *' className={styles.input1} />
                         </div>
                         <div className='mt-3'>
-                            <input ref={formsubject} type="text" style={{ backgroundColor: "rgba(20,20,20,1)", outline: "none", border: "none" }} placeholder='your subject *' className={styles.input1} />
+                            <input ref={formsubject} type="text" style={{ backgroundColor: "#464022", outline: "none", border: "none" }} placeholder='your subject *' className={styles.input1} />
                         </div>
                         <div className='mt-3'>
-                            <textarea ref={formmessage} rows={5} cols={5} type="text" style={{ backgroundColor: "rgba(20,20,20,1)", outline: "none", border: "none" }} placeholder='your message *' className={styles.input1} />
+                            <textarea ref={formmessage} rows={5} cols={5} type="text" style={{ backgroundColor: "#464022", outline: "none", border: "none" }} placeholder='your message *' className={styles.input1} />
                         </div>
                         <div className='mt-3'>
-                            <input type="submit" style={{ backgroundColor: "rgba(20,20,20,1)", outline: "none", border: "none" }} className={styles.input1} />
+                            <input type="submit" style={{ backgroundColor: "#464022", outline: "none", border: "none" }} className={styles.input1} />
                         </div>
                     </form>
 

@@ -2,7 +2,8 @@
     width: 90%;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 20px;
+    align-items: center;
 }
 
 .navcont ul,
@@ -17,12 +18,37 @@ a {
     list-style-type: none;
     color: rgb(116, 108, 108);
     font-weight: 900;
+    animation: css 5s linear 0s infinite;
+}
 
+@keyframes css {
+
+    0%,
+    40%,
+    70%,
+    98% {
+        color: rgb(116, 108, 108);
+        text-shadow: 0 0 10px gray;
+    }
+
+    1%,
+    41%,
+    71%,
+    99% {
+        color: #fff;
+        font-weight: 900;
+        letter-spacing: 3px;
+        text-shadow: 0 0 10px #fff;
+    }
 }
 
 .a {
-    color: goldenrod;
-    border-bottom: 1.5px solid white;
+
+    background-image: linear-gradient(to right, red, yellow);
+    padding: .5rem 1rem;
+    height: 30px;
+
+    border-radius: 9px;
 }
 
 
@@ -54,7 +80,6 @@ a {
 @media screen and (max-width:500px) {
     .navcont {
         width: 400px;
-        background-color: black;
     }
 
     .navcont ul {

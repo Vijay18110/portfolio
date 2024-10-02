@@ -6,10 +6,8 @@
 }
 
 #root {
-  background-color: black;
-
-
-
+  background-color: #464033;
+  /* background-color: #fff; */
 }
 
 ::-webkit-scrollbar {

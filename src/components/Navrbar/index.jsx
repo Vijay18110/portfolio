@@ -3,12 +3,9 @@ import Button from '../../widgets/button'
 import { Link, useLocation } from 'react-router-dom'
 import styles from './index.module.css'
 import { FaBars } from "react-icons/fa";
-
 const Nav = () => {
     const [class1, setClass1] = useState(styles.a)
     const { pathname } = useLocation()
-
-
     return (
         <>
             <div className={styles.navcont}>
