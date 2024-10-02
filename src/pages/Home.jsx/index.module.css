@@ -152,18 +152,18 @@ h3 {
     .heading {
         padding-left: 30px;
         width: 400px;
-        background-color: black;
+        /* background-color: black; */
     }
 
     .iconlinkscont {
         width: 400px;
-        background-color: black;
+        /* background-color: black; */
 
     }
 
     .iconlinks {
         /* width: 400px; */
-        background-color: black;
+        /* background-color: black; */
 
         width: 50px;
         height: 50px;
@@ -183,6 +183,4 @@ h3 {
         text-align: start;
         margin: auto;
     }
-
-
 }
